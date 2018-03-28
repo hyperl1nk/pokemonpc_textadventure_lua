@@ -1,26 +1,38 @@
 
-“pk1” = {
+pkmn1 = {
+   val=1
    typ=“pkmn”,
-   name=“lee”,
+   name=“Lucario”,
    pokedex={448,”B”}
-   biography=“Lee is a peculiar Lucario, found in the Alola region on Route 12. He can speak telepathically, but is mute otherwise.”,
-   held_item={“Trainer Card”,”This Pokémon insists on holding onto it, so its details are unknown.”,secret=“It belongs to Porter Ballou, a trainer with eight Z-Crystals.”}
+   biography=“This is a peculiar Lucario, found in the Alola region on Route 12. He can speak telepathically, but is mute otherwise.”,
+   held_item={“Trainer Card”,”This Pokémon insists on holding onto it, so its details are unknown.”,secret=“It belongs to an Alolan trial-goer.”}
 }
 
-“pk2” = {
+pkmn2 = {
+   val=2,
    typ=“pkmn”,
-   name=“Galpal”,
+   name=“Gardevoir”,
    pokedex={9999,”ERR”},
-   biography=“Galpal was found on a beach on [CORRUPTED].”,
-   held_item={“Psychium Z”,”A crystallized form of Z Power. It’s scuffed and scratched here and there, but still works fine.”,secret””}
+   biography=”Faring from the Alola region, this Gardevoir asks about its trainer (with a noteable degree of concern) at least twice a week.”,
+   held_item={“Psychium Z”,”A crystallized form of Z Power. It’s scuffed and scratched here and there, but still works fine.”,secret=”This particular Z-Crystal overpowers the user with a cruel will. See recording 31-11t.”}
 }
 
 
 
-“pk3” = {
+pkmn3 = {
+   val=3,
    typ=“pkmn”,
    name=“Incineroar”,
-   pokedex={3,”B”},
-   biography=“Found in an unidentified area”,
-   held_item={“UniZ”,”A small cube, partially rounded by wear.”,secret=“There’s nothing else to know about this item.”
-   }
+   pokedex={727,”B”},
+   biography=“”,
+   held_item={“Rock”,”A small stone, once cut into a cube but partially rounded from wear. It smells like the Alolan shore.”}
+}
+
+pkmn4 = {
+   val=4,
+   typ=”pkmn”,
+   name=”Lycanroc”,
+   pokedex={745,”B”},
+   biography”Similar to the other Pokémon listed here, this one was found in the Alola region.”,
+   held_item={“Crooked Stick”,”Presumably stolen from a Delphox.”,secret=“Definitely stolen from a Delphox.”}
+}
